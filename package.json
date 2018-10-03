@@ -1,6 +1,6 @@
 {
   "name": "Trillo",
-  "version": "1.0.0",
+  "version": "0.1.0",
   "description": "trillo app interface",
   "main": "index.js",
   "scripts": {
