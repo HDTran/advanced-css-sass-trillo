@@ -19,6 +19,14 @@
 }
 /* CSS VARIABLES END */
 
+/* SASS VARIABLES START */
+$bp-largest: 75em; // 1200px
+$bp-large: 68.75em; // 1100px/16 = em
+$bp-medium: 56.25em; // 900px
+$bp-small: 37.5em; // 600px
+$bp-smallest: 31.25em; // 500px
+/* SASS VARIABLES END */
+
 /* RESET START */
 * {
   margin: 0;
@@ -32,6 +40,10 @@
 html {
   box-sizing: border-box;
   font-size: 62.5%; // 1rem = 10px from 10px desired/16px browser default = 62.5%
+
+  @media only screen and (max-width: $bp-large) {
+    font-size: 50%;
+  }
 }
 /* RESET END */
 
