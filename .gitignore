@@ -59,3 +59,7 @@ typings/
 
 # next.js build output
 .next
+
+# transitional built css
+css/style.comp.css
+css/style.prefix.css
